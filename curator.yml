@@ -1,0 +1,5 @@
+client:
+  hosts: ${ES_HOST}
+  port: ${ES_PORT:443}
+  url_prefix: ${ES_PREFIX}
+  use_ssl: ${ES_SSL:True}
